@@ -1,12 +1,15 @@
 {
   "name": "clean-node",
   "version": "1.0.0",
+  "author": "Takayuki Komatsu",
+  "license": "MIT",
   "description": "Projeto desenvolvido durante o curso NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID",
   "main": "index.js",
+  "keywords": [],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Takayuki Komatsu",
-  "license": "MIT"
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.1"
+  }
 }
