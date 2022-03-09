@@ -7,8 +7,13 @@
   "main": "index.js",
   "keywords": [],
   "scripts": {
-    "lint": "eslint src --max-warnings=0",
+    "lint": "eslint src/**/* --max-warnings=0",
     "prepare": "husky install"
+  },
+   "lint-staged": {
+    "src/**/*": [
+      "yarn lint --fix"
+    ]
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
@@ -23,10 +28,5 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.5",
     "typescript": "^4.6.2"
-  },
-  "lint-staged": {
-    "src/**/*": [
-      "yarn lint --fix"
-    ]
   }
 }
