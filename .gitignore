@@ -134,3 +134,6 @@ dist
 
 # Visual studio code settings
 .vscode
+
+# asdf settings
+.tool-versions
