@@ -1,4 +1,3 @@
-
 export default {
   roots: ['<rootDir>/src'],
   // Automatically clear mock calls, instances and results before every test
@@ -18,5 +17,4 @@ export default {
 
   // A map from regular expressions to paths to transformers
   transform: { '.+\\.ts$': 'ts-jest' }
-
 }
