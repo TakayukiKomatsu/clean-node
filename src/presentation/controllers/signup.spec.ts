@@ -99,8 +99,8 @@ describe('SignUp Controller', () => {
     const httpRequest = {
       body: {
         name: 'any_name',
-        email: ' any_email@mail.com',
-        password: 'invalid_email@mail.com',
+        email: ' invalid_email@mail.com',
+        password: 'any_password',
         passwordConfirmation: 'any_password'
       }
     }
@@ -118,7 +118,7 @@ describe('SignUp Controller', () => {
       body: {
         name: 'any_name',
         email: 'any_email@mail.com',
-        password: 'any_email@mail.com',
+        password: 'any_password',
         passwordConfirmation: 'any_password'
       }
     }
@@ -136,8 +136,8 @@ describe('SignUp Controller', () => {
     const httpRequest = {
       body: {
         name: 'any_name',
-        email: ' any_email@mail.com',
-        password: 'invalid_email@mail.com',
+        email: 'invalid_email@mail.com',
+        password: 'any_password',
         passwordConfirmation: 'any_password'
       }
     }
