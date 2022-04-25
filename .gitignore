@@ -137,3 +137,6 @@ dist
 
 # asdf settings
 .tool-versions
+
+# Devcontainer settings
+.devcontainer
