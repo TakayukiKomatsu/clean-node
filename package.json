@@ -10,7 +10,9 @@
     "lint": "eslint 'src/**' --max-warnings=0",
     "prepare": "husky install",
     "test": "jest --maxWorkers=50%",
-    "test:watch": "jest --watch --maxWorkers=25%",
+    "test:verbose": "jest --passWithNoTests",
+    "test:dev": "jest --passWithNoTests --silent --noStackTrace",
+    "test:watch": "jest --watch --silent --noStackTrace --maxWorkers=25%",
     "test:ci": "jest --runInBand"
   },
   "lint-staged": {
