@@ -15,6 +15,7 @@ module.exports = {
   // Indicates which provider should be used to instrument code for coverage
   coverageProvider: 'babel',
 
+  preset: '@shelf/jest-mongodb',
   // A map from regular expressions to paths to transformers
   transform: { '.+\\.ts$': 'ts-jest' }
 }
