@@ -140,3 +140,4 @@ dist
 
 # Devcontainer settings
 .devcontainer
+globalConfig.json
